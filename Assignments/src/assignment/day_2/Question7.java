@@ -1,4 +1,4 @@
-package assignment1;
+package assignment.day_2;
 
 public class Question7 {
 
