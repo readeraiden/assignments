@@ -11,7 +11,7 @@ public class Lab2Question4 {
 		
 		System.out.print("Enter the number of Male students=");
 		int maleStudent = numberOfStudent.nextInt();
-		
+		numberOfStudent.close();
 		System.out.print("Enter the number of Female students=");
 		
 		int femaleStudent = numberOfStudent.nextInt();

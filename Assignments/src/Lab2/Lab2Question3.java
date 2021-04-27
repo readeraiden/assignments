@@ -19,7 +19,7 @@ public class Lab2Question3 {
 				break;
 			
 		}
-		
+		number.close();
 		System.out.println("Sum of the numbers which has been entered=" + sum);
 	}
 

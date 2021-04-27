@@ -9,7 +9,7 @@ public class Lab2Question6 {
 		
 		System.out.print("Enter the amount of sale=");
 		double sale =sales.nextDouble();
-		
+		sales.close();
 		double stateTax= sale*0.04;
 		double countryTax= sale*0.02;
 		double totalTax=(stateTax+countryTax);

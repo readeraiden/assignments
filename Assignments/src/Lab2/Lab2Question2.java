@@ -13,7 +13,7 @@ public class Lab2Question2 {
 		
 		System.out.print("How many cookies have you eaten?=");
 		int numberOfCookie = calorie.nextInt();
-		
+		calorie.close();
 		System.out.println("Total colories consumed= " + (numberOfCookie*colorieOfCookie) );
 	}
 		

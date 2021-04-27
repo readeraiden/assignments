@@ -1,5 +1,4 @@
 package Lab2;
-
 import java.util.Scanner;
 
 public class Lab2Question5 {
@@ -10,7 +9,7 @@ public class Lab2Question5 {
 		
 		System.out.print("Enter the charge of the meal=");
 		double chargeOfMeal=meal.nextDouble();
-		
+		meal.close();
 		double tax= chargeOfMeal*6.75/100;
 		double tip= (chargeOfMeal+tax)*0.2;
 		double total=chargeOfMeal+tax+tip;
